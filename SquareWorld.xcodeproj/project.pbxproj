@@ -9,11 +9,43 @@
 /* Begin PBXBuildFile section */
 		FF9329311ACD373A00EC5ACC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9329301ACD373A00EC5ACC /* main.m */; };
 		FF9329341ACD373A00EC5ACC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9329331ACD373A00EC5ACC /* AppDelegate.m */; };
-		FF9329371ACD373A00EC5ACC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9329361ACD373A00EC5ACC /* ViewController.m */; };
+		FF9329371ACD373A00EC5ACC /* SquareWorldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9329361ACD373A00EC5ACC /* SquareWorldViewController.m */; };
 		FF93293A1ACD373A00EC5ACC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF9329381ACD373A00EC5ACC /* Main.storyboard */; };
 		FF93293C1ACD373A00EC5ACC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF93293B1ACD373A00EC5ACC /* Images.xcassets */; };
 		FF93293F1ACD373A00EC5ACC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF93293D1ACD373A00EC5ACC /* LaunchScreen.xib */; };
 		FF93294B1ACD373A00EC5ACC /* SquareWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF93294A1ACD373A00EC5ACC /* SquareWorldTests.m */; };
+		FF9329681ACD38A100EC5ACC /* rick1.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9329561ACD38A100EC5ACC /* rick1.png */; };
+		FF9329691ACD38A100EC5ACC /* rick2.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9329571ACD38A100EC5ACC /* rick2.png */; };
+		FF93296A1ACD38A100EC5ACC /* rick3.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9329581ACD38A100EC5ACC /* rick3.png */; };
+		FF93296B1ACD38A100EC5ACC /* rick4.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9329591ACD38A100EC5ACC /* rick4.png */; };
+		FF93296C1ACD38A100EC5ACC /* rick5.png in Resources */ = {isa = PBXBuildFile; fileRef = FF93295A1ACD38A100EC5ACC /* rick5.png */; };
+		FF93296D1ACD38A100EC5ACC /* rick6.png in Resources */ = {isa = PBXBuildFile; fileRef = FF93295B1ACD38A100EC5ACC /* rick6.png */; };
+		FF93296E1ACD38A100EC5ACC /* rick7.png in Resources */ = {isa = PBXBuildFile; fileRef = FF93295C1ACD38A100EC5ACC /* rick7.png */; };
+		FF93296F1ACD38A100EC5ACC /* rick8.png in Resources */ = {isa = PBXBuildFile; fileRef = FF93295D1ACD38A100EC5ACC /* rick8.png */; };
+		FF9329701ACD38A100EC5ACC /* bg_03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF93295F1ACD38A100EC5ACC /* bg_03@2x.png */; };
+		FF9329711ACD38A100EC5ACC /* BG_option@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9329601ACD38A100EC5ACC /* BG_option@2x.png */; };
+		FF9329721ACD38A100EC5ACC /* down_01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9329611ACD38A100EC5ACC /* down_01@2x.png */; };
+		FF9329731ACD38A100EC5ACC /* left_01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9329621ACD38A100EC5ACC /* left_01@2x.png */; };
+		FF9329741ACD38A100EC5ACC /* newbg1.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9329631ACD38A100EC5ACC /* newbg1.png */; };
+		FF9329751ACD38A100EC5ACC /* play_grid1.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9329641ACD38A100EC5ACC /* play_grid1.png */; };
+		FF9329761ACD38A100EC5ACC /* right_01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9329651ACD38A100EC5ACC /* right_01@2x.png */; };
+		FF9329771ACD38A100EC5ACC /* turn_01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9329661ACD38A100EC5ACC /* turn_01@2x.png */; };
+		FF9329781ACD38A100EC5ACC /* up_01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9329671ACD38A100EC5ACC /* up_01@2x.png */; };
+		FF93298A1ACD3A7B00EC5ACC /* NumGameEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9329831ACD3A7B00EC5ACC /* NumGameEngine.m */; };
+		FF93298B1ACD3A7B00EC5ACC /* NumItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9329851ACD3A7B00EC5ACC /* NumItemView.m */; };
+		FF93298C1ACD3A7B00EC5ACC /* NumResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9329871ACD3A7B00EC5ACC /* NumResultViewController.m */; };
+		FF93298D1ACD3A7B00EC5ACC /* NumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9329891ACD3A7B00EC5ACC /* NumViewController.m */; };
+		FF93299B1ACD3AA100EC5ACC /* TetrisBrickGroupView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9329901ACD3AA100EC5ACC /* TetrisBrickGroupView.m */; };
+		FF93299C1ACD3AA100EC5ACC /* TetrisBrickView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9329921ACD3AA100EC5ACC /* TetrisBrickView.m */; };
+		FF93299D1ACD3AA100EC5ACC /* TetrisGameEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9329941ACD3AA100EC5ACC /* TetrisGameEngine.m */; };
+		FF93299E1ACD3AA100EC5ACC /* TetrisGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9329961ACD3AA100EC5ACC /* TetrisGrid.m */; };
+		FF93299F1ACD3AA100EC5ACC /* TetrisGridGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9329981ACD3AA100EC5ACC /* TetrisGridGroup.m */; };
+		FF9329A01ACD3AA100EC5ACC /* TetrisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF93299A1ACD3AA100EC5ACC /* TetrisViewController.m */; };
+		FF9329A31ACD3AE300EC5ACC /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9329A21ACD3AE300EC5ACC /* Tools.m */; };
+		FF9329D31ACD3E2900EC5ACC /* Num2048.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9329D01ACD3E2900EC5ACC /* Num2048.png */; };
+		FF9329D41ACD3E2900EC5ACC /* Tetris.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9329D11ACD3E2900EC5ACC /* Tetris.png */; };
+		FF9329D71ACD407800EC5ACC /* SquareWorldGameIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9329D61ACD407800EC5ACC /* SquareWorldGameIconView.m */; };
+		FF9329DA1ACD5C3500EC5ACC /* SquareWorldGameIconData.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9329D91ACD5C3500EC5ACC /* SquareWorldGameIconData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +64,59 @@
 		FF9329301ACD373A00EC5ACC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FF9329321ACD373A00EC5ACC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FF9329331ACD373A00EC5ACC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FF9329351ACD373A00EC5ACC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FF9329361ACD373A00EC5ACC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF9329351ACD373A00EC5ACC /* SquareWorldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SquareWorldViewController.h; sourceTree = "<group>"; };
+		FF9329361ACD373A00EC5ACC /* SquareWorldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SquareWorldViewController.m; sourceTree = "<group>"; };
 		FF9329391ACD373A00EC5ACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF93293B1ACD373A00EC5ACC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FF93293E1ACD373A00EC5ACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FF9329441ACD373A00EC5ACC /* SquareWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquareWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF9329491ACD373A00EC5ACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF93294A1ACD373A00EC5ACC /* SquareWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SquareWorldTests.m; sourceTree = "<group>"; };
+		FF9329561ACD38A100EC5ACC /* rick1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rick1.png; sourceTree = "<group>"; };
+		FF9329571ACD38A100EC5ACC /* rick2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rick2.png; sourceTree = "<group>"; };
+		FF9329581ACD38A100EC5ACC /* rick3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rick3.png; sourceTree = "<group>"; };
+		FF9329591ACD38A100EC5ACC /* rick4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rick4.png; sourceTree = "<group>"; };
+		FF93295A1ACD38A100EC5ACC /* rick5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rick5.png; sourceTree = "<group>"; };
+		FF93295B1ACD38A100EC5ACC /* rick6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rick6.png; sourceTree = "<group>"; };
+		FF93295C1ACD38A100EC5ACC /* rick7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rick7.png; sourceTree = "<group>"; };
+		FF93295D1ACD38A100EC5ACC /* rick8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rick8.png; sourceTree = "<group>"; };
+		FF93295F1ACD38A100EC5ACC /* bg_03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_03@2x.png"; sourceTree = "<group>"; };
+		FF9329601ACD38A100EC5ACC /* BG_option@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BG_option@2x.png"; sourceTree = "<group>"; };
+		FF9329611ACD38A100EC5ACC /* down_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "down_01@2x.png"; sourceTree = "<group>"; };
+		FF9329621ACD38A100EC5ACC /* left_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left_01@2x.png"; sourceTree = "<group>"; };
+		FF9329631ACD38A100EC5ACC /* newbg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newbg1.png; sourceTree = "<group>"; };
+		FF9329641ACD38A100EC5ACC /* play_grid1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_grid1.png; sourceTree = "<group>"; };
+		FF9329651ACD38A100EC5ACC /* right_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right_01@2x.png"; sourceTree = "<group>"; };
+		FF9329661ACD38A100EC5ACC /* turn_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "turn_01@2x.png"; sourceTree = "<group>"; };
+		FF9329671ACD38A100EC5ACC /* up_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "up_01@2x.png"; sourceTree = "<group>"; };
+		FF9329821ACD3A7B00EC5ACC /* NumGameEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumGameEngine.h; sourceTree = "<group>"; };
+		FF9329831ACD3A7B00EC5ACC /* NumGameEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumGameEngine.m; sourceTree = "<group>"; };
+		FF9329841ACD3A7B00EC5ACC /* NumItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumItemView.h; sourceTree = "<group>"; };
+		FF9329851ACD3A7B00EC5ACC /* NumItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumItemView.m; sourceTree = "<group>"; };
+		FF9329861ACD3A7B00EC5ACC /* NumResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumResultViewController.h; sourceTree = "<group>"; };
+		FF9329871ACD3A7B00EC5ACC /* NumResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumResultViewController.m; sourceTree = "<group>"; };
+		FF9329881ACD3A7B00EC5ACC /* NumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumViewController.h; sourceTree = "<group>"; };
+		FF9329891ACD3A7B00EC5ACC /* NumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumViewController.m; sourceTree = "<group>"; };
+		FF93298F1ACD3AA100EC5ACC /* TetrisBrickGroupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TetrisBrickGroupView.h; sourceTree = "<group>"; };
+		FF9329901ACD3AA100EC5ACC /* TetrisBrickGroupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TetrisBrickGroupView.m; sourceTree = "<group>"; };
+		FF9329911ACD3AA100EC5ACC /* TetrisBrickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TetrisBrickView.h; sourceTree = "<group>"; };
+		FF9329921ACD3AA100EC5ACC /* TetrisBrickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TetrisBrickView.m; sourceTree = "<group>"; };
+		FF9329931ACD3AA100EC5ACC /* TetrisGameEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TetrisGameEngine.h; sourceTree = "<group>"; };
+		FF9329941ACD3AA100EC5ACC /* TetrisGameEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TetrisGameEngine.m; sourceTree = "<group>"; };
+		FF9329951ACD3AA100EC5ACC /* TetrisGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TetrisGrid.h; sourceTree = "<group>"; };
+		FF9329961ACD3AA100EC5ACC /* TetrisGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TetrisGrid.m; sourceTree = "<group>"; };
+		FF9329971ACD3AA100EC5ACC /* TetrisGridGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TetrisGridGroup.h; sourceTree = "<group>"; };
+		FF9329981ACD3AA100EC5ACC /* TetrisGridGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TetrisGridGroup.m; sourceTree = "<group>"; };
+		FF9329991ACD3AA100EC5ACC /* TetrisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TetrisViewController.h; sourceTree = "<group>"; };
+		FF93299A1ACD3AA100EC5ACC /* TetrisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TetrisViewController.m; sourceTree = "<group>"; };
+		FF9329A11ACD3AE300EC5ACC /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		FF9329A21ACD3AE300EC5ACC /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
+		FF9329D01ACD3E2900EC5ACC /* Num2048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Num2048.png; sourceTree = "<group>"; };
+		FF9329D11ACD3E2900EC5ACC /* Tetris.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tetris.png; sourceTree = "<group>"; };
+		FF9329D51ACD407800EC5ACC /* SquareWorldGameIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquareWorldGameIconView.h; sourceTree = "<group>"; };
+		FF9329D61ACD407800EC5ACC /* SquareWorldGameIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareWorldGameIconView.m; sourceTree = "<group>"; };
+		FF9329D81ACD5C3500EC5ACC /* SquareWorldGameIconData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquareWorldGameIconData.h; sourceTree = "<group>"; };
+		FF9329D91ACD5C3500EC5ACC /* SquareWorldGameIconData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareWorldGameIconData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +158,18 @@
 		FF93292D1ACD373A00EC5ACC /* SquareWorld */ = {
 			isa = PBXGroup;
 			children = (
+				FF9329541ACD38A100EC5ACC /* Resource */,
+				FF93297F1ACD3A3F00EC5ACC /* Public */,
+				FF93298E1ACD3AA100EC5ACC /* Tetris */,
+				FF9329811ACD3A7B00EC5ACC /* Num2048 */,
 				FF9329321ACD373A00EC5ACC /* AppDelegate.h */,
 				FF9329331ACD373A00EC5ACC /* AppDelegate.m */,
-				FF9329351ACD373A00EC5ACC /* ViewController.h */,
-				FF9329361ACD373A00EC5ACC /* ViewController.m */,
+				FF9329351ACD373A00EC5ACC /* SquareWorldViewController.h */,
+				FF9329361ACD373A00EC5ACC /* SquareWorldViewController.m */,
+				FF9329D51ACD407800EC5ACC /* SquareWorldGameIconView.h */,
+				FF9329D61ACD407800EC5ACC /* SquareWorldGameIconView.m */,
+				FF9329D81ACD5C3500EC5ACC /* SquareWorldGameIconData.h */,
+				FF9329D91ACD5C3500EC5ACC /* SquareWorldGameIconData.m */,
 				FF9329381ACD373A00EC5ACC /* Main.storyboard */,
 				FF93293B1ACD373A00EC5ACC /* Images.xcassets */,
 				FF93293D1ACD373A00EC5ACC /* LaunchScreen.xib */,
@@ -117,6 +202,107 @@
 				FF9329491ACD373A00EC5ACC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF9329541ACD38A100EC5ACC /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				FF9329CF1ACD3E2900EC5ACC /* Icon */,
+				FF9329D21ACD3E2900EC5ACC /* Num2048 */,
+				FF9329551ACD38A100EC5ACC /* Public */,
+				FF93295E1ACD38A100EC5ACC /* Tetris */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		FF9329551ACD38A100EC5ACC /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				FF9329561ACD38A100EC5ACC /* rick1.png */,
+				FF9329571ACD38A100EC5ACC /* rick2.png */,
+				FF9329581ACD38A100EC5ACC /* rick3.png */,
+				FF9329591ACD38A100EC5ACC /* rick4.png */,
+				FF93295A1ACD38A100EC5ACC /* rick5.png */,
+				FF93295B1ACD38A100EC5ACC /* rick6.png */,
+				FF93295C1ACD38A100EC5ACC /* rick7.png */,
+				FF93295D1ACD38A100EC5ACC /* rick8.png */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		FF93295E1ACD38A100EC5ACC /* Tetris */ = {
+			isa = PBXGroup;
+			children = (
+				FF93295F1ACD38A100EC5ACC /* bg_03@2x.png */,
+				FF9329601ACD38A100EC5ACC /* BG_option@2x.png */,
+				FF9329611ACD38A100EC5ACC /* down_01@2x.png */,
+				FF9329621ACD38A100EC5ACC /* left_01@2x.png */,
+				FF9329631ACD38A100EC5ACC /* newbg1.png */,
+				FF9329641ACD38A100EC5ACC /* play_grid1.png */,
+				FF9329651ACD38A100EC5ACC /* right_01@2x.png */,
+				FF9329661ACD38A100EC5ACC /* turn_01@2x.png */,
+				FF9329671ACD38A100EC5ACC /* up_01@2x.png */,
+			);
+			path = Tetris;
+			sourceTree = "<group>";
+		};
+		FF93297F1ACD3A3F00EC5ACC /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				FF9329A11ACD3AE300EC5ACC /* Tools.h */,
+				FF9329A21ACD3AE300EC5ACC /* Tools.m */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		FF9329811ACD3A7B00EC5ACC /* Num2048 */ = {
+			isa = PBXGroup;
+			children = (
+				FF9329821ACD3A7B00EC5ACC /* NumGameEngine.h */,
+				FF9329831ACD3A7B00EC5ACC /* NumGameEngine.m */,
+				FF9329841ACD3A7B00EC5ACC /* NumItemView.h */,
+				FF9329851ACD3A7B00EC5ACC /* NumItemView.m */,
+				FF9329861ACD3A7B00EC5ACC /* NumResultViewController.h */,
+				FF9329871ACD3A7B00EC5ACC /* NumResultViewController.m */,
+				FF9329881ACD3A7B00EC5ACC /* NumViewController.h */,
+				FF9329891ACD3A7B00EC5ACC /* NumViewController.m */,
+			);
+			path = Num2048;
+			sourceTree = "<group>";
+		};
+		FF93298E1ACD3AA100EC5ACC /* Tetris */ = {
+			isa = PBXGroup;
+			children = (
+				FF93298F1ACD3AA100EC5ACC /* TetrisBrickGroupView.h */,
+				FF9329901ACD3AA100EC5ACC /* TetrisBrickGroupView.m */,
+				FF9329911ACD3AA100EC5ACC /* TetrisBrickView.h */,
+				FF9329921ACD3AA100EC5ACC /* TetrisBrickView.m */,
+				FF9329931ACD3AA100EC5ACC /* TetrisGameEngine.h */,
+				FF9329941ACD3AA100EC5ACC /* TetrisGameEngine.m */,
+				FF9329951ACD3AA100EC5ACC /* TetrisGrid.h */,
+				FF9329961ACD3AA100EC5ACC /* TetrisGrid.m */,
+				FF9329971ACD3AA100EC5ACC /* TetrisGridGroup.h */,
+				FF9329981ACD3AA100EC5ACC /* TetrisGridGroup.m */,
+				FF9329991ACD3AA100EC5ACC /* TetrisViewController.h */,
+				FF93299A1ACD3AA100EC5ACC /* TetrisViewController.m */,
+			);
+			path = Tetris;
+			sourceTree = "<group>";
+		};
+		FF9329CF1ACD3E2900EC5ACC /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				FF9329D01ACD3E2900EC5ACC /* Num2048.png */,
+				FF9329D11ACD3E2900EC5ACC /* Tetris.png */,
+			);
+			path = Icon;
+			sourceTree = "<group>";
+		};
+		FF9329D21ACD3E2900EC5ACC /* Num2048 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Num2048;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +385,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF9329771ACD38A100EC5ACC /* turn_01@2x.png in Resources */,
+				FF93296A1ACD38A100EC5ACC /* rick3.png in Resources */,
+				FF9329741ACD38A100EC5ACC /* newbg1.png in Resources */,
 				FF93293A1ACD373A00EC5ACC /* Main.storyboard in Resources */,
+				FF93296E1ACD38A100EC5ACC /* rick7.png in Resources */,
+				FF93296C1ACD38A100EC5ACC /* rick5.png in Resources */,
+				FF93296D1ACD38A100EC5ACC /* rick6.png in Resources */,
+				FF9329721ACD38A100EC5ACC /* down_01@2x.png in Resources */,
+				FF9329D41ACD3E2900EC5ACC /* Tetris.png in Resources */,
 				FF93293F1ACD373A00EC5ACC /* LaunchScreen.xib in Resources */,
+				FF9329761ACD38A100EC5ACC /* right_01@2x.png in Resources */,
+				FF9329691ACD38A100EC5ACC /* rick2.png in Resources */,
+				FF9329681ACD38A100EC5ACC /* rick1.png in Resources */,
+				FF9329711ACD38A100EC5ACC /* BG_option@2x.png in Resources */,
+				FF9329701ACD38A100EC5ACC /* bg_03@2x.png in Resources */,
+				FF9329751ACD38A100EC5ACC /* play_grid1.png in Resources */,
+				FF9329731ACD38A100EC5ACC /* left_01@2x.png in Resources */,
+				FF93296F1ACD38A100EC5ACC /* rick8.png in Resources */,
 				FF93293C1ACD373A00EC5ACC /* Images.xcassets in Resources */,
+				FF9329D31ACD3E2900EC5ACC /* Num2048.png in Resources */,
+				FF9329781ACD38A100EC5ACC /* up_01@2x.png in Resources */,
+				FF93296B1ACD38A100EC5ACC /* rick4.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +424,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF9329371ACD373A00EC5ACC /* ViewController.m in Sources */,
+				FF9329A01ACD3AA100EC5ACC /* TetrisViewController.m in Sources */,
+				FF93299D1ACD3AA100EC5ACC /* TetrisGameEngine.m in Sources */,
+				FF93298D1ACD3A7B00EC5ACC /* NumViewController.m in Sources */,
+				FF9329371ACD373A00EC5ACC /* SquareWorldViewController.m in Sources */,
 				FF9329341ACD373A00EC5ACC /* AppDelegate.m in Sources */,
+				FF93299C1ACD3AA100EC5ACC /* TetrisBrickView.m in Sources */,
+				FF93298C1ACD3A7B00EC5ACC /* NumResultViewController.m in Sources */,
+				FF9329D71ACD407800EC5ACC /* SquareWorldGameIconView.m in Sources */,
+				FF9329A31ACD3AE300EC5ACC /* Tools.m in Sources */,
+				FF93298A1ACD3A7B00EC5ACC /* NumGameEngine.m in Sources */,
+				FF9329DA1ACD5C3500EC5ACC /* SquareWorldGameIconData.m in Sources */,
+				FF93298B1ACD3A7B00EC5ACC /* NumItemView.m in Sources */,
+				FF93299E1ACD3AA100EC5ACC /* TetrisGrid.m in Sources */,
 				FF9329311ACD373A00EC5ACC /* main.m in Sources */,
+				FF93299F1ACD3AA100EC5ACC /* TetrisGridGroup.m in Sources */,
+				FF93299B1ACD3AA100EC5ACC /* TetrisBrickGroupView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +564,7 @@
 				INFOPLIST_FILE = SquareWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -356,6 +575,7 @@
 				INFOPLIST_FILE = SquareWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
